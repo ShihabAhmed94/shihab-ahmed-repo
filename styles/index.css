@@ -10,3 +10,6 @@ p{
 img{
     border: 5px solid pink;
 }
+nav{
+    text-decoration: none;
+}
