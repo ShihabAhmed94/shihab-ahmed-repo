@@ -4,3 +4,6 @@ div{
     border: 10px solid tomato;
     /border-radius: 10px;
 }
+p{
+    color: blueviolet;
+}
