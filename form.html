@@ -3,39 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amar ghrt</title>
+    <title>Jamal er mayer pitha ghor</title>
     <style>
         label{
             display: block;
-            margin-bottom: 10px;
+            margin: 10px;1
+            border: 5px;
+
         }
     </style>
-  
 </head>
 <body>
     <header>
-        <nav>
-            <h2>Pitha ghor new</h2>
-            <label for="Your name">
-                Your name:
-            </label>
-            <input type="Name" placeholder="Your name"> 
-            <label for="Enter your email">Enter your email:</label>
-            <input type="Your Email" placeholder="Enter your email">
-            <label for="Your phone ">Your phone:</label>
-            <input type="Enter your phone" placeholder="Enter your phone"><br><br>
-            <input type="reset"><br><br>
-            <input type="Submit">
-            
-        </nav>
 
     </header>
     <main>
+        <section>
+           
+            <form>
+                <h1>PITHA GHOR</h1>
+                <label for="name">Your Name:
+                    <input id="Name" type="Your name" placeholder="Enter your name">
+                </label>
+                <label for="Email">Your email:
+                    <input id="Email" type="Your email" placeholder="Enter your email">
+                </label>
+                <label for="Phone">Your Phone: 
+                    <input id="Phone" type="Your phone" placeholder="Enter your phone">
+                </label>
+                <label for="Choose Item">Choose Item:
+                    <input id="Item" type="Choose Item" placeholder="Please choose your iteam">
+                </label>
+
+                <fieldset>
+                    <legend>Some kinds of Pitha</legend>
+                    <label for="Vapa">
+                        <input type="radio" name="Pitha" id="Vapa">Vapa
+                    </label>
+                    <label for="Chitoy">
+                        <input type="radio" name="Pitha" id="Chitoy">Chitoy
+                    </label>
+                    <label for="Singara">
+                        <input type="radio" name="Pitha" id="Singara">Singara
+                    </label>
+                    <label for="Puri">
+                        <input type="radio" name="Pitha" id="Puri">Puri
+                    </label>
+                    <label for="Somoca">
+                        <input type="radio" name="Pitha" id="Somoca">Somoca
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Some kinds of vorta</legend>
+                    <label for="Shutki">
+                        <input type="checkbox" name="Vorta" id="Sutki">Shutki
+                    </label>
+                    <label for="Moricher vorta">
+                        <input type="checkbox" name="Vorta" id="Moricher vorta">Moricher vorta
+                
+                    </label>
+                    <label for="Sorisha">
+                        <input type="checkbox" name="Vorta" id="Sorisha">Sorisha
+                    </label>
+                    <label for="Alu vorta">
+                        <input type="checkbox" name="Vorta" id="Alu vorta">Alu vorta
+                    </label>
+                </fieldset>
+                <input type="Reset" name="Reset" id="Reset">
+                <input type="Submit" name="Submit" id="Submit">
+            </form>
+        </section>
 
     </main>
     <footer>
 
     </footer>
-    
 </body>
 </html>
